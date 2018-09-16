@@ -5,5 +5,5 @@
 ### Лабораторная работа №1
 
 * [IDEF0-диаграмма "шесть вопросов"](https://vasilymaterikin.github.io/6questions.png)
-* [IDEF0-диаграмма "шесть вопросов" в формате .rsf](https://vasilymaterikin.github.io/6questions.rsf)
+* [IDEF0-диаграмма "шесть вопросов" в формате .rsf](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/6question.rsf)
 ***
