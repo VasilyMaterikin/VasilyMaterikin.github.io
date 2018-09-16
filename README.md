@@ -4,5 +4,5 @@
 
 ### Лабораторная работа №1
 
-* [IDEF0-диаграмма "шесть вопросов"](http://test.net)
+* [IDEF0-диаграмма "шесть вопросов"](https://vasilymaterikin.github.io/6questions.png)
 ***
