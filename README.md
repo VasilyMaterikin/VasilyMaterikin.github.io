@@ -109,7 +109,7 @@
 * Определение конфигурации технических средств:
   - Компьютеры разработчиков и DevOps инженера.
   - Сервер с приложением CI/CD системы.
-  - Сервер с репозиторием кода и артефактов
+  - Сервер с репозиторием кода и артефактов.
   - Сервер БД.
 * Определение конфигурации программных средств:
   - IDE Android Studio (многоуровневое).
@@ -149,7 +149,7 @@
 
 * [Модель в формате .rsf](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/kursovaya.rsf)  
 
-#### Построение диаграммы классов
+#### Построение диаграммы классов, которые хранятся в БД
 
 * [Диаграмма классов](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/classes.txt)<br>
 ![none](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/VasilyMaterikin/VasilyMaterikin.github.io/master/Kursovaya/classes.txt)<br>
