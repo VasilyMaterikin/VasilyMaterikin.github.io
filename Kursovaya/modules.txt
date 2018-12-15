@@ -1,0 +1,54 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class Модули
+class "Экранная форма" as form
+class Скрипт
+class "Форма списка" as listform
+class "Форма ввода" as editform
+class "Форма выбора" as selectform
+class "Список конфигураций" as confform
+class "Редактирование конфигурации" as editconfform
+class "Выбор пользователей" as usersform
+class "Добавления задачи" as taskform
+class "Выбор репозитория" as repoform
+class "Выбор инструмента" as toolform
+class "Выбор артефакта" as artform
+class "Сохранение в репозитории" as saveform
+class "Запуск тестирования" as testform
+class "Запуск в релиз" as releaseform
+class "Вызов Git" as git
+class Сборка
+class "Выполнение тестов" as runtests
+class "Загрузка артефакта" as artefact
+class "Обработка тестирования" as testprocess
+class "Загрузка релизной версии" as release
+Модули <|-- form
+Модули <|-- Скрипт
+form <|-- listform
+form <|-- editform
+form <|-- selectform
+listform <|-- confform
+editform <|-- editconfform
+selectform <|-- usersform
+editform <|-- taskform
+selectform <|-- repoform
+selectform <|-- toolform
+selectform <|-- artform
+editform <|-- saveform
+editform <|-- testform
+editform <|-- releaseform
+Скрипт <|-- git
+Скрипт <|-- Сборка
+Скрипт <|-- runtests
+Скрипт <|-- artefact
+Скрипт <|-- testprocess
+Скрипт <|-- release
+hide members
+hide circle
+hide methods
+scale 0.8
+@enduml
