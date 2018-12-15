@@ -1,0 +1,52 @@
+@startuml
+actor Программист as p
+actor "QA инженер" as q
+actor "Менеджер проекта" as m
+actor "DevOps инженер" as d
+participant "разрабатываемая CI/CD система" as cd
+database "репозиторий кода" as c
+database "репозиторий артефактов" as a
+participant "ферма в облаке для тестирования приложений" as t
+participant "система распространения" as r
+p -> d : Согласование конфигурации
+d -> cd : Настройка конфигурации
+activate cd
+cd -> p : Готовая конфигурация
+deactivate cd
+p -> cd : Сборка проекта
+activate cd
+cd -> c : Запрос кода
+activate c
+c -> cd : Исходный код
+deactivate c
+cd -> cd : Выполнение тестов
+cd -> cd : Сборка проекта
+cd -> a : Отправка тестового артефакта
+cd -> p : Отчет о сборке
+deactivate cd
+p -> q : Проверить тестовую версию
+q -> cd : Запуск тестирования
+activate cd
+cd -> a : Запрос тестового артефакта
+activate a
+a -> cd : Тестовый артефакт
+deactivate a
+cd -> t : Тестовый артефакт
+activate t
+t -> t : Рассылка тестового артефакта на устройства
+t -> t : Выполнение тестов
+t -> cd : Данные о тестировании
+deactivate t
+cd -> cd : Анализ отчетов
+cd -> q : Отчет о тестировании
+deactivate cd
+q -> m : Состояние тестовой версии
+m -> cd: Запуск в релиз
+activate cd
+cd -> a : Загрузка артефакта
+activate a
+a -> cd : Артефакт
+deactivate a
+cd -> r : Отправка релизного артефакта
+deactivate cd
+@enduml
