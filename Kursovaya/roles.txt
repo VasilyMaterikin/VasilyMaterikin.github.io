@@ -1,0 +1,39 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class Роли
+class Человек
+class Инструмент
+class "Система котроля версий" as checkout
+class SDK
+class "Внешний сервис" as service
+class Git
+class "Android SDK" as android
+class "Ферма в облаке для тестирования приложений" as testfarm
+class "Система распространения" as delivery
+class "DevOps инженер" as devops
+class Разработчик
+class Программист
+class "QA инженер" as qa
+class "Менеджер проекта" as manager
+Роли <|-- Человек
+Роли <|-- Инструмент
+Человек <|-- devops
+Человек <|-- Разработчик
+Разработчик <|-- Программист
+Разработчик <|-- qa
+Разработчик <|-- manager
+Инструмент <|-- checkout
+Инструмент <|-- SDK
+Инструмент <|-- service
+checkout <|-- Git
+SDK <|-- android
+service <|-- testfarm
+service <|-- delivery
+hide members
+hide circle
+hide methods
+@enduml
