@@ -1,0 +1,39 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class Потоки
+class "Электронный документ" as doc
+class "Бизнес требования" as business
+class "Описание конфигурации" as desc
+class Данные
+class "Данные конфигурации" as confdata
+class "Данные об изменениях в коде" as codedata
+class "Результаты тестирования" as testdata
+class Команда
+class "Запуск тестирования" as starttest
+class "Запуск сборки" as startbuild
+class Файл
+class "Файл исходного кода" as sourcecode
+class "Тестовый артефакт" as artefact
+class "Установочный пакет приложения" as apk
+Потоки <|-- doc
+Потоки <|-- Данные
+Потоки <|-- Команда
+Потоки <|-- Файл
+doc <|-- business
+doc <|-- desc
+Данные <|-- confdata
+Данные <|-- codedata
+Данные <|-- testdata
+Команда <|-- starttest
+Команда <|-- startbuild
+Файл <|-- sourcecode
+Файл <|-- artefact
+Файл <|-- apk
+hide members
+hide circle
+hide methods
+@enduml
