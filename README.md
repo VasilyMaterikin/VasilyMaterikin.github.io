@@ -88,12 +88,87 @@
 
 * Контекстная диаграмма А0 "Автоматизировать процесс DevOps мобильного приложения":
 
+![none](https://vasilymaterikin.github.io/Kursovaya/01_A0.png)
 
+* Декомпозиция диаграммы А0:
+
+![none](https://vasilymaterikin.github.io/Kursovaya/02_A0.png)
+
+* Декомпозиция блока А2: "Собрать приложение":
+
+![none](https://vasilymaterikin.github.io/Kursovaya/04_A2.png)
+
+* [Модель в формате .rsf](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/kursovaya.rsf) 
 
 ***
 
 ### Лабораторная работа №5
+
+#### Определение основных средств автоматизации
+
+* Определение конфигурации технических средств:
+  - Компьютеры разработчиков и DevOps инженера.
+  - Сервер с приложением CI/CD системы.
+  - Сервер с репозиторием кода и артефактов
+  - Сервер БД.
+* Определение конфигурации программных средств:
+  - IDE Android Studio (многоуровневое).
+  - Android SDK (многоуровневое).
+  - Система контроля версий Git (распределнное).
+  - Сервер управления репозиториями Gitlab (распределнное).
+* Определение допустимых видов хранилищ и их размещения:
+  - База данных на сервере БД.
+  - Репозиторий кода на сервере.
+  - Репозиторий артефактов на сервере.
+ 
+#### Разработка диаграмм в RAMUS - декомпозиция всех автоматизируемых блоков в DFD
+
+* Декомпозиция блока А1 "Настроить конфигурацию":
+![none](https://vasilymaterikin.github.io/Kursovaya/03_A1.png)
+
+* Декомпозиция блока А21 "Загрузить код в репозиторий":
+![none](https://vasilymaterikin.github.io/Kursovaya/05_A21.png)
+
+* Декомпозиция блока А22 "Запустить процесс сборки":
+![none](https://vasilymaterikin.github.io/Kursovaya/06_A22.png)
+
+* Декомпозиция блока А23 "Выполнить локальные тесты":
+![none](https://vasilymaterikin.github.io/Kursovaya/07_A23.png)
+
+* Декомпозиция блока А24 "Собрать тестовый артефакт":
+![none](https://vasilymaterikin.github.io/Kursovaya/08_A24.png)
+
+* Декомпозиция блока А25 "Загрузить тестовый артефакт в репозиторий":
+![none](https://vasilymaterikin.github.io/Kursovaya/09_A25.png)
+
+* Декомпозиция блока А3 "Протестировать приложение на устройствах":
+![none](https://vasilymaterikin.github.io/Kursovaya/10_A3.png)
+
+* Декомпозиция блока А4 "Распространить приложение":
+![none](https://vasilymaterikin.github.io/Kursovaya/11_A4.png)
+
+* [Модель в формате .rsf](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/kursovaya.rsf)  
+
+#### Построение диаграммы классов
+
+* [Диаграмма классов](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/classes.txt)<br>
+![none](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/VasilyMaterikin/VasilyMaterikin.github.io/master/Kursovaya/classes.txt)<br>
+
 ***
 
 ### Лабораторная работа №6
-***
+
+#### Завершение идентификации всех потоков путём построения ERD (диаграммы классов без атрибутов) для всех потоков
+
+* [Диаграмма ERD для потоков](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/flows.txt)<br>
+![none](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/VasilyMaterikin/VasilyMaterikin.github.io/master/Kursovaya/flows.txt)<br>
+
+#### Завершение идентификации всех ролей путём построения ERD (диаграммы классов без атрибутов) для всех ролей
+
+* [Диаграмма ERD для ролей](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/roles.txt)<br>
+![none](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/VasilyMaterikin/VasilyMaterikin.github.io/master/Kursovaya/roles.txt)<br>
+
+#### Завершение идентификации всех модулей путём построения ERD (диаграммы классов без атрибутов) для всех модулей
+
+* [Диаграмма ERD для модулей](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/modules.txt)<br>
+![none](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/VasilyMaterikin/VasilyMaterikin.github.io/master/Kursovaya/modules.txt)<br>
