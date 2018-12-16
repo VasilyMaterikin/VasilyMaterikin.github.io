@@ -13,7 +13,7 @@ class "Форма выбора" as selectform
 class "Список конфигураций" as confform
 class "Редактирование конфигурации" as editconfform
 class "Выбор пользователей" as usersform
-class "Добавления задачи" as taskform
+class "Добавление задачи" as taskform
 class "Выбор репозитория" as repoform
 class "Выбор инструмента" as toolform
 class "Выбор артефакта" as artform
