@@ -1,6 +1,8 @@
-# Отчет по лабораторным работам и курсовой проект по курсу "Проектирование информационных систем"
+# [Курсовой проект](https://github.com/stankin/design-2018/wiki/list-idb-15-14)
 
-## Выполнил студент группы [ИДБ-15-14](https://github.com/stankin/design-2018/wiki/list-idb-15-14) Материкин В.В.
+# Отчет по лабораторным работам по курсу "Проектирование информационных систем"
+
+## Выполнил студент группы [ИДБ-15-14](https://github.com/VasilyMaterikin/design2018-kursovaya/blob/master/README.md) Материкин В.В.
 
 ### Лабораторная работа №1
 
@@ -177,13 +179,3 @@
 
 * [Диаграмма ERD для модулей](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/modules.txt)<br>
 ![none](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://raw.githubusercontent.com/VasilyMaterikin/VasilyMaterikin.github.io/master/Kursovaya/modules.txt)<br>
-
-***
-
-## Курсовой проект
-
-* [Модель в формате .rsf](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/kursovaya.rsf) 
-
-* [Курсовой проект в формате .docx](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20-%20%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BA%D0%B8%D0%BD%20%D0%92.%D0%92.docx)
-
-* [Курсовой проект в формате .pdf](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20-%20%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BA%D0%B8%D0%BD%20%D0%92.%D0%92.pdf)
