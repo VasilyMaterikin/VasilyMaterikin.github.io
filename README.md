@@ -1,4 +1,4 @@
-# [Курсовой проект](https://github.com/stankin/design-2018/wiki/list-idb-15-14)
+# [Курсовой проект](https://github.com/VasilyMaterikin/design2018-kursovaya/blob/master/README.md)
 
 # Отчет по лабораторным работам по курсу "Проектирование информационных систем"
 
