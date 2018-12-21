@@ -180,7 +180,7 @@
 
 ***
 
-### Курсовой проект
+## Курсовой проект
 
 * [Модель в формате .rsf](https://github.com/VasilyMaterikin/VasilyMaterikin.github.io/blob/master/Kursovaya/kursovaya.rsf) 
 
